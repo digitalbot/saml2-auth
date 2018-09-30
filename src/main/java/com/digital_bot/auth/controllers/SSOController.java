@@ -17,7 +17,8 @@ import javax.servlet.http.HttpServletRequest;
 public class SSOController {
     private final MetadataManager metadata;
 
-    public SSOController(@Autowired MetadataManager metadata) {
+    @Autowired
+    public SSOController(MetadataManager metadata) {
         this.metadata = metadata;
     }
 
