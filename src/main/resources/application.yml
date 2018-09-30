@@ -1,0 +1,14 @@
+app:
+  name: auth
+  sso:
+    idp:
+      auth0:
+        saml:
+          metadata: https://digital-bot.auth0.com/samlp/metadata/j2_SOfHyVyyw8h4235mgFOI6F0QvMLdF
+    sp:
+      entityId: com:digital-bot:auth:sp
+      keyStore: classpath:/xxxxxx   # replace here
+      storePass: xxxxxx   # replace here
+      keyAlias: xxxxxx   # replace here
+      keyPass: xxxxxx   # replace
+
